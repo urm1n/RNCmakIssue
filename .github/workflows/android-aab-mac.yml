@@ -1,11 +1,11 @@
-name: 🤞🏻 Build Android Debug AAB
+name: 🍎 Mac OS Build Android Debug AAB
 
 on:
   workflow_dispatch:
 
 jobs:
   build-android-aab:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
       - name: Checkout repository
